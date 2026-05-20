@@ -1,0 +1,45 @@
+name: 🌐 Translation Issue
+description: Report a typo or mistranslation in the app
+title: "[i18n]: "
+labels: ["localization", "needs-triage"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Arabic (العربية)
+        - Turkish (Türkçe)
+        - English
+    validations:
+      required: true
+
+  - type: input
+    id: screen
+    attributes:
+      label: Screen / Location
+      placeholder: e.g. Dashboard, Onboarding step 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Text
+      description: Exact string as shown in the app (copy/paste).
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested Text
+      description: Your proposed corrected wording.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why the current text is wrong (typo, grammar, awkward phrasing, cultural mismatch, etc.).

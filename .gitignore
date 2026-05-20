@@ -1,0 +1,171 @@
+# ============================================================
+#  YOU - .gitignore (Flutter / Android / iOS / Multi-platform)
+# ============================================================
+
+# ---------- Private local-only directory (NEVER commit) ----------
+_local/
+private/
+secrets/
+credentials/
+
+# ---------- Claude Code / AI assistant artifacts ----------
+.claude/
+.cursor/
+.aider*
+.ai/
+
+# ---------- Environment / Secrets ----------
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ---------- Android Signing ----------
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pfx
+key.properties
+android/key.properties
+android/app/key.jks
+android/app/upload-keystore.jks
+android/app/release-keystore.jks
+keystore-credentials*.md
+**/keystore*credentials*
+
+# ---------- iOS Signing ----------
+*.mobileprovision
+*.certSigningRequest
+ios/Runner/GoogleService-Info.plist
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+
+# ---------- Google Services ----------
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# ---------- Flutter / Dart ----------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+/build/
+**/build/
+coverage/
+**/coverage/
+.fvm/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# ---------- Android Build ----------
+android/.gradle/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/build/
+android/**/build/
+android/**/GeneratedPluginRegistrant.java
+android/*.iml
+*.apk
+*.aab
+*.dex
+
+# ---------- Symbolication / Obfuscation ----------
+app.*.symbols
+app.*.map.json
+*.symbols
+
+# ---------- IDE / Editor ----------
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ---------- macOS / Linux / Windows OS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ---------- Logs / Reports ----------
+*.log
+*.log.*
+*.tmp
+*.bak
+*.swp
+build.log
+build_*.txt
+*_log.txt
+*_log_*.txt
+**/build_aab_log*.txt
+report_output.txt
+*_report.txt
+final_*.txt
+final_check.txt
+arabic_report.txt
+
+# ---------- Python (used in helper scripts) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- Misc ----------
+*.class
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+node_modules/
+
+# ---------- Internal-only docs (DO NOT publish) ----------
+SECURITY_AUDIT*.md
+SECURITY_FIXES*.md
+CHANGELOG_*.md
+plans/
+docs/internal/
+
+# ---------- Supabase internal fix scripts ----------
+supabase_cleanup_*.sql
+supabase_fix*.sql
+supabase_security_*.sql
+
+# ---------- IntelliJ / Android Studio extras ----------
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf

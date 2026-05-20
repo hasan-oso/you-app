@@ -1,0 +1,62 @@
+PROPRIETARY LICENSE — All Rights Reserved
+
+Copyright (c) 2026 hasanoso151. All rights reserved.
+
+This software and its associated source code, documentation, designs, and
+assets (collectively, the "Software") are the proprietary and confidential
+property of the copyright holder. The Software is published in this
+repository solely for the purposes of portfolio presentation, educational
+viewing, and code review.
+
+RESTRICTIONS
+
+Without the prior written permission of the copyright holder, you may NOT:
+
+  1. Copy, reproduce, fork, mirror, or redistribute the Software, in whole
+     or in part, in any form or by any means.
+  2. Use the Software, or any portion of it, in any product, service,
+     application, or work — whether commercial, non-commercial, internal,
+     or personal.
+  3. Modify, adapt, translate, decompile, reverse-engineer, disassemble,
+     or create derivative works based on the Software.
+  4. Sell, sublicense, lease, rent, distribute, or otherwise transfer the
+     Software or any rights in it to any third party.
+  5. Remove, alter, or obscure any copyright, trademark, or other
+     proprietary notices contained in the Software.
+  6. Use any trademarks, service marks, trade names, logos, or product or
+     service names of the copyright holder.
+
+PERMITTED USE
+
+You may:
+
+  1. View and read the source code within this repository for the limited
+     purposes of personal study and code review.
+  2. Reference the project (with proper attribution and a link back to
+     this repository) in non-commercial discussions, reviews, articles,
+     and academic work.
+
+THIRD-PARTY COMPONENTS
+
+The Software depends on third-party open-source libraries (listed in
+`pubspec.yaml` and platform manifests). Those components are governed by
+their respective licenses, which are not affected by this license and
+remain the property of their respective authors.
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+CONTACT
+
+For licensing inquiries, commercial use requests, or partnerships:
+  GitHub: https://github.com/hasanoso151
+
+By accessing, viewing, or otherwise interacting with this repository, you
+acknowledge that you have read, understood, and agreed to the terms above.

@@ -148,7 +148,7 @@ This project is released under a **Proprietary** license — all rights reserved
 
 ## Author
 
-Built and maintained by **[@hasanoso151](https://github.com/hasanoso151)**.
+Built and maintained by **[@hasan-oso](https://github.com/hasan-oso)**.
 
 For commercial inquiries, partnerships, or licensing requests, open an issue or reach out via GitHub.
 
